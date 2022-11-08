@@ -14,7 +14,7 @@ public class ConsumerController {
     private final TopicConsumer consumer;
 
     @GetMapping("/consume")
-    public String consume1(){
+    public String consume(){
         return consumer.getLoadedConsume();
     }
 
